@@ -12,6 +12,8 @@
 
 到 [Releases](https://github.com/niuniuyike/Title_awa/releases) 下载对应游戏版本的构建。26.3 为当前源码版本（2.5）。
 
+> 26.2 构建包沿用历史文件名 `2.4`，jar 内版本号为 `2.5`。
+
 ## 环境
 
 | 依赖 | 版本 |
