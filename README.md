@@ -2,11 +2,21 @@
 
 给玩家加 **AFK 头衔**的服务端模组：玩家一段时间不操作后，自动把 `[AFK]` 前缀加到他的名牌和 TAB 列表上；一旦有操作立即摘掉。
 
+## 下载
+
+| Minecraft | Mod 版本 | 文件 |
+| --- | --- | --- |
+| 26.1.2 | — | 未发布（Title_awa 从 26.2 开始） |
+| 26.2 | 2.4 | `title_awa-fabric-26.2-2.4.jar` |
+| 26.3 | 2.5 | `title_awa-fabric-26.3-2.5.jar` |
+
+到 [Releases](https://github.com/niuniuyike/Title_awa/releases) 下载对应游戏版本的构建。26.3 为当前源码版本（2.5）。
+
 ## 环境
 
 | 依赖 | 版本 |
 | --- | --- |
-| Minecraft | 26.3 |
+| Minecraft | 26.2 / 26.3（按构建选择） |
 | Fabric Loader | 0.18.4+ |
 | Fabric API | 0.152.1+ |
 | Java | 25 |
@@ -15,7 +25,7 @@
 
 ## 使用
 
-1. 把 `build/libs/title_awa-2.5.jar` 放进服务端 `mods/` 目录
+1. 把对应版本的 `title_awa-*.jar` 放进服务端 `mods/` 目录
 2. 启动服务器，会自动生成 `config/title_awa.json`
 
 配置文件（支持 `//` 注释行）：
@@ -55,3 +65,7 @@ gradlew build
 ```
 
 产物在 `build/libs/`。
+
+---
+
+本项目 95% 的代码由 AI 编写。本仓库从 [awa_mods](https://github.com/niuniuyike/awa_mods) 拆分而来。
